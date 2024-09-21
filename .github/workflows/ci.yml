@@ -25,12 +25,7 @@ jobs:
       - name: Give execute permission to gradlew
         run: chmod +x ./gradlew
 
-<<<<<<< HEAD
 
-
-=======
-        
->>>>>>> c28141b8c63bb107a3e3a748345f54a8eda8157e
       - name: Build the project
         run: ./gradlew build --no-daemon
 
