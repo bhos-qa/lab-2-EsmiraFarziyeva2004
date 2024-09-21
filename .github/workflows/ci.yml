@@ -20,10 +20,10 @@ jobs:
       uses: actions/setup-java@v2
       with:
         java-version: '11'
-        
+        distribution: 'temurin'  # or 'adopt', 'zulu', etc.
+
     - name: Build with Gradle
       run: ./gradlew build
       
     - name: Run tests
       run: ./gradlew test
-
