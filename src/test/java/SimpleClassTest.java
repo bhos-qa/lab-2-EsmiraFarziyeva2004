@@ -6,7 +6,7 @@ public class SimpleClassTest {
     @Test
     public void testSum() {
         SimpleClass sc = new SimpleClass();
-        int result = sc.sum(7, 10);
-        assertEquals(17, result, "Sum of 7 and 10 should be 17.");
+        int result = sc.sum(8, 10);
+        assertEquals(18, result, "Sum of 8 and 10 should be 18.");
     }
 }

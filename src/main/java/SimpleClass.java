@@ -7,6 +7,6 @@ public class SimpleClass {
 
     public static void main(String[] args) {
         SimpleClass sc = new SimpleClass();
-        System.out.println("Sum: " + sc.sum(7, 10));
+        System.out.println("Sum: " + sc.sum(8, 10));
     }
 }
