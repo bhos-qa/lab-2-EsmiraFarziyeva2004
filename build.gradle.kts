@@ -20,7 +20,7 @@ tasks.test {
 
 java {
     toolchain {
-        languageVersion.set(JavaLanguageVersion.of(11))  // Set this to the Java version you're using (11 or higher)
+        languageVersion.set(JavaLanguageVersion.of(11))
     }
 }
 
