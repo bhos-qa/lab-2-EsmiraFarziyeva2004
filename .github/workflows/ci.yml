@@ -1,5 +1,6 @@
 name: CI
 
+
 on:
   pull_request:
     branches:
@@ -18,7 +19,6 @@ jobs:
       - name: Set up JDK 21
         uses: actions/setup-java@v3
         with:
-<<<<<<< HEAD
           java-version: '21'
           distribution: 'temurin'
           cache: gradle
@@ -30,10 +30,6 @@ jobs:
 
       - name: Build the project
         run: ./gradlew build --no-daemon
-=======
-          java-version: '11'
-          distribution: 'adopt'
->>>>>>> 4424322f9a7424e7fb79a0b7b3f6c667de801e9c
 
 
       - name: Run tests
